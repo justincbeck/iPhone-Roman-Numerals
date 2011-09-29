@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98C0358E1432154A00B83B3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C0358D1432154A00B83B3D /* UIKit.framework */; };
+		98C035901432154A00B83B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C0358F1432154A00B83B3D /* Foundation.framework */; };
+		98C035921432154A00B83B3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C035911432154A00B83B3D /* CoreGraphics.framework */; };
+		98C035981432154A00B83B3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98C035961432154A00B83B3D /* InfoPlist.strings */; };
+		98C0359A1432154A00B83B3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C035991432154A00B83B3D /* main.m */; };
+		98C0359E1432154A00B83B3D /* iPhoneRomanNumeralsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0359D1432154A00B83B3D /* iPhoneRomanNumeralsAppDelegate.m */; };
+		98C035A11432154A00B83B3D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98C0359F1432154A00B83B3D /* MainWindow.xib */; };
+		98C035A91432154A00B83B3D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C035A81432154A00B83B3D /* SenTestingKit.framework */; };
+		98C035AA1432154A00B83B3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C0358D1432154A00B83B3D /* UIKit.framework */; };
+		98C035AB1432154A00B83B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C0358F1432154A00B83B3D /* Foundation.framework */; };
+		98C035AC1432154A00B83B3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C035911432154A00B83B3D /* CoreGraphics.framework */; };
+		98C035B41432154B00B83B3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98C035B21432154B00B83B3D /* InfoPlist.strings */; };
+		98C035B61432154B00B83B3D /* iPhoneRomanNumeralsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 98C035B51432154B00B83B3D /* iPhoneRomanNumeralsTests.h */; };
+		98C035B81432154B00B83B3D /* iPhoneRomanNumeralsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C035B71432154B00B83B3D /* iPhoneRomanNumeralsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98C035AD1432154A00B83B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98C035801432154A00B83B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98C035881432154A00B83B3D;
+			remoteInfo = iPhoneRomanNumerals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98C035891432154A00B83B3D /* iPhoneRomanNumerals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneRomanNumerals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C0358D1432154A00B83B3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98C0358F1432154A00B83B3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98C035911432154A00B83B3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98C035951432154A00B83B3D /* iPhoneRomanNumerals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneRomanNumerals-Info.plist"; sourceTree = "<group>"; };
+		98C035971432154A00B83B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98C035991432154A00B83B3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98C0359B1432154A00B83B3D /* iPhoneRomanNumerals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhoneRomanNumerals-Prefix.pch"; sourceTree = "<group>"; };
+		98C0359C1432154A00B83B3D /* iPhoneRomanNumeralsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneRomanNumeralsAppDelegate.h; sourceTree = "<group>"; };
+		98C0359D1432154A00B83B3D /* iPhoneRomanNumeralsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneRomanNumeralsAppDelegate.m; sourceTree = "<group>"; };
+		98C035A01432154A00B83B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		98C035A71432154A00B83B3D /* iPhoneRomanNumeralsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneRomanNumeralsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C035A81432154A00B83B3D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		98C035B11432154B00B83B3D /* iPhoneRomanNumeralsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneRomanNumeralsTests-Info.plist"; sourceTree = "<group>"; };
+		98C035B31432154B00B83B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98C035B51432154B00B83B3D /* iPhoneRomanNumeralsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneRomanNumeralsTests.h; sourceTree = "<group>"; };
+		98C035B71432154B00B83B3D /* iPhoneRomanNumeralsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneRomanNumeralsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98C035861432154A00B83B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C0358E1432154A00B83B3D /* UIKit.framework in Frameworks */,
+				98C035901432154A00B83B3D /* Foundation.framework in Frameworks */,
+				98C035921432154A00B83B3D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C035A31432154A00B83B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C035A91432154A00B83B3D /* SenTestingKit.framework in Frameworks */,
+				98C035AA1432154A00B83B3D /* UIKit.framework in Frameworks */,
+				98C035AB1432154A00B83B3D /* Foundation.framework in Frameworks */,
+				98C035AC1432154A00B83B3D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98C0357E1432154A00B83B3D = {
+			isa = PBXGroup;
+			children = (
+				98C035931432154A00B83B3D /* iPhoneRomanNumerals */,
+				98C035AF1432154A00B83B3D /* iPhoneRomanNumeralsTests */,
+				98C0358C1432154A00B83B3D /* Frameworks */,
+				98C0358A1432154A00B83B3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98C0358A1432154A00B83B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98C035891432154A00B83B3D /* iPhoneRomanNumerals.app */,
+				98C035A71432154A00B83B3D /* iPhoneRomanNumeralsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98C0358C1432154A00B83B3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98C0358D1432154A00B83B3D /* UIKit.framework */,
+				98C0358F1432154A00B83B3D /* Foundation.framework */,
+				98C035911432154A00B83B3D /* CoreGraphics.framework */,
+				98C035A81432154A00B83B3D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98C035931432154A00B83B3D /* iPhoneRomanNumerals */ = {
+			isa = PBXGroup;
+			children = (
+				98C0359C1432154A00B83B3D /* iPhoneRomanNumeralsAppDelegate.h */,
+				98C0359D1432154A00B83B3D /* iPhoneRomanNumeralsAppDelegate.m */,
+				98C0359F1432154A00B83B3D /* MainWindow.xib */,
+				98C035941432154A00B83B3D /* Supporting Files */,
+			);
+			path = iPhoneRomanNumerals;
+			sourceTree = "<group>";
+		};
+		98C035941432154A00B83B3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98C035951432154A00B83B3D /* iPhoneRomanNumerals-Info.plist */,
+				98C035961432154A00B83B3D /* InfoPlist.strings */,
+				98C035991432154A00B83B3D /* main.m */,
+				98C0359B1432154A00B83B3D /* iPhoneRomanNumerals-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98C035AF1432154A00B83B3D /* iPhoneRomanNumeralsTests */ = {
+			isa = PBXGroup;
+			children = (
+				98C035B51432154B00B83B3D /* iPhoneRomanNumeralsTests.h */,
+				98C035B71432154B00B83B3D /* iPhoneRomanNumeralsTests.m */,
+				98C035B01432154B00B83B3D /* Supporting Files */,
+			);
+			path = iPhoneRomanNumeralsTests;
+			sourceTree = "<group>";
+		};
+		98C035B01432154B00B83B3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98C035B11432154B00B83B3D /* iPhoneRomanNumeralsTests-Info.plist */,
+				98C035B21432154B00B83B3D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98C035881432154A00B83B3D /* iPhoneRomanNumerals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C035BB1432154B00B83B3D /* Build configuration list for PBXNativeTarget "iPhoneRomanNumerals" */;
+			buildPhases = (
+				98C035851432154A00B83B3D /* Sources */,
+				98C035861432154A00B83B3D /* Frameworks */,
+				98C035871432154A00B83B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneRomanNumerals;
+			productName = iPhoneRomanNumerals;
+			productReference = 98C035891432154A00B83B3D /* iPhoneRomanNumerals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98C035A61432154A00B83B3D /* iPhoneRomanNumeralsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C035BE1432154B00B83B3D /* Build configuration list for PBXNativeTarget "iPhoneRomanNumeralsTests" */;
+			buildPhases = (
+				98C035A21432154A00B83B3D /* Sources */,
+				98C035A31432154A00B83B3D /* Frameworks */,
+				98C035A41432154A00B83B3D /* Resources */,
+				98C035A51432154A00B83B3D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98C035AE1432154A00B83B3D /* PBXTargetDependency */,
+			);
+			name = iPhoneRomanNumeralsTests;
+			productName = iPhoneRomanNumeralsTests;
+			productReference = 98C035A71432154A00B83B3D /* iPhoneRomanNumeralsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98C035801432154A00B83B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Intalgent;
+			};
+			buildConfigurationList = 98C035831432154A00B83B3D /* Build configuration list for PBXProject "iPhoneRomanNumerals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98C0357E1432154A00B83B3D;
+			productRefGroup = 98C0358A1432154A00B83B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98C035881432154A00B83B3D /* iPhoneRomanNumerals */,
+				98C035A61432154A00B83B3D /* iPhoneRomanNumeralsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98C035871432154A00B83B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C035981432154A00B83B3D /* InfoPlist.strings in Resources */,
+				98C035A11432154A00B83B3D /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C035A41432154A00B83B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C035B41432154B00B83B3D /* InfoPlist.strings in Resources */,
+				98C035B61432154B00B83B3D /* iPhoneRomanNumeralsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98C035A51432154A00B83B3D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98C035851432154A00B83B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C0359A1432154A00B83B3D /* main.m in Sources */,
+				98C0359E1432154A00B83B3D /* iPhoneRomanNumeralsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C035A21432154A00B83B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C035B81432154B00B83B3D /* iPhoneRomanNumeralsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98C035AE1432154A00B83B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98C035881432154A00B83B3D /* iPhoneRomanNumerals */;
+			targetProxy = 98C035AD1432154A00B83B3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98C035961432154A00B83B3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C035971432154A00B83B3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98C0359F1432154A00B83B3D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C035A01432154A00B83B3D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		98C035B21432154B00B83B3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C035B31432154B00B83B3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98C035B91432154B00B83B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98C035BA1432154B00B83B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98C035BC1432154B00B83B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneRomanNumerals/iPhoneRomanNumerals-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneRomanNumerals/iPhoneRomanNumerals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98C035BD1432154B00B83B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneRomanNumerals/iPhoneRomanNumerals-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneRomanNumerals/iPhoneRomanNumerals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		98C035BF1432154B00B83B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhoneRomanNumerals.app/iPhoneRomanNumerals";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneRomanNumerals/iPhoneRomanNumerals-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneRomanNumeralsTests/iPhoneRomanNumeralsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		98C035C01432154B00B83B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhoneRomanNumerals.app/iPhoneRomanNumerals";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneRomanNumerals/iPhoneRomanNumerals-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneRomanNumeralsTests/iPhoneRomanNumeralsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98C035831432154A00B83B3D /* Build configuration list for PBXProject "iPhoneRomanNumerals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C035B91432154B00B83B3D /* Debug */,
+				98C035BA1432154B00B83B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98C035BB1432154B00B83B3D /* Build configuration list for PBXNativeTarget "iPhoneRomanNumerals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C035BC1432154B00B83B3D /* Debug */,
+				98C035BD1432154B00B83B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98C035BE1432154B00B83B3D /* Build configuration list for PBXNativeTarget "iPhoneRomanNumeralsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C035BF1432154B00B83B3D /* Debug */,
+				98C035C01432154B00B83B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98C035801432154A00B83B3D /* Project object */;
+}
