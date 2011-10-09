@@ -10,15 +10,19 @@
 
 @interface iPhoneRomanNumeralsAppDelegate : NSObject <UIApplicationDelegate>
 {
-    IBOutlet UIWindow *window;
     IBOutlet UITextField *origin;
-    IBOutlet UITextField *result;
+    IBOutlet UILabel *result;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UITextField *origin;
-@property (nonatomic, retain) IBOutlet UITextField *result;
 
 - (IBAction)buttonPressed:(id)sender;
+
+- (NSString *)convert:(NSString *)from;
+- (NSString *)toRoman:(NSString *)candidate;
+- (NSString *)toArabic:(NSString *)candidate;
+- (NSString *)constructSegment:(char)segment: (NSString *[3])magnitude;
+- (NSString *)reverseString:(NSString *)string;
+- (NSString *)upCase:(NSString *)string;
 
 @end
