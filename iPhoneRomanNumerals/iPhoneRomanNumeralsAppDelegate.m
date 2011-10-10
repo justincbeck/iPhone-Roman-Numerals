@@ -36,8 +36,7 @@ const static NSDictionary *THE_MAP;
 
 - (IBAction)buttonPressed:(id)sender
 {
-    NSString *candidate = [origin text];
-    NSString *converted = [self convert:(NSString *) candidate];
+    NSString *converted = [self convert:(NSString *) [origin text]];
     
     [result setText:converted];
 }
@@ -50,12 +49,10 @@ const static NSDictionary *THE_MAP;
     NSRegularExpression *romanRegex = [NSRegularExpression regularExpressionWithPattern:@"^\\w+$" options:0 error:NULL];
     NSUInteger numberOfRomanMatches = [romanRegex numberOfMatchesInString:candidate options:0 range:NSMakeRange(0, [candidate length])];
     
-    
     if (numberOfArabicMatches == 1)
     {
         if ([candidate integerValue] > 3999)
         {
-            NSLog(@"Arabic must be less than 4000!");
             return @"Arabic must be less than 4000!";
         }
         return [self toRoman:(NSString *) candidate];
@@ -105,6 +102,9 @@ const static NSDictionary *THE_MAP;
         [roman appendString:segment];
     }
     
+    [romanArray release];
+    [roman autorelease];
+    
     return roman;
 }
 
@@ -114,14 +114,17 @@ const static NSDictionary *THE_MAP;
     NSMutableArray *segments = [[NSMutableArray alloc] init];
     NSString *upperRoman = [self upCase: roman];
     NSInteger length = [upperRoman length];
+    NSMutableString *tempString = [[NSMutableString alloc] init];
     
     for (NSInteger i = 0; i < length; i++) {
         unichar character = [upperRoman characterAtIndex:i];
-        NSMutableString *tempString = [[NSMutableString alloc] init];
+        tempString = [[NSMutableString alloc] init];
         [tempString appendFormat:@"%c",character];
         NSString *num = [THE_MAP objectForKey:tempString];
         [segments addObject: num];
     }
+    
+    [tempString release];
     
     NSEnumerator *segEnum = [segments objectEnumerator];
     id segment;
@@ -147,6 +150,9 @@ const static NSDictionary *THE_MAP;
     {
         total += [arab integerValue];
     }
+    
+    [arabic release];
+    [segments release];
     
     return [NSString stringWithFormat:@"%d", total];
 }
@@ -186,6 +192,8 @@ const static NSDictionary *THE_MAP;
             [roman appendString:magnitude[0]];
         }
     }
+    
+    [roman autorelease];
     
     return roman;
 }
